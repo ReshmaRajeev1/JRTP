@@ -8,7 +8,7 @@ public class PasswordUtil {
 		
 		String encodeToString = Base64.getEncoder().encodeToString(value.getBytes());
 
-		System.out.println("In password app");
+		System.out.println("In password ");
 
 		return encodeToString;
 	}
